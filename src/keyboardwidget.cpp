@@ -51,6 +51,7 @@ void KeyboardWidget::updateLayout() {
 	m_buttons.clear();
 	updateLayout(m_quickWidget.rootObject());
 	updateLayoutLabels();
+	resetSize();
 }
 
 void KeyboardWidget::updateLayout(QQuickItem *item) {
